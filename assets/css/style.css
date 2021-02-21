@@ -75,3 +75,8 @@ textarea {
   background-color: #c9370a;
   color: white;
 }
+
+.clearBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
