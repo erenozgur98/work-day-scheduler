@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta class="descriptionviewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+      <p id="currentTime" class="lead"></p>
+    </header>
+    <div class="container container-fluid">
+      <!-- 9AM -->
+      <div class="row time-block">
+        <div class="hour col-1 p-3">9 AM</div>
+        <textarea class="description" id="9" cols="100" rows="2"></textarea>
+        <button id="btn-9" class="btn saveBtn col"><i class="fas fa-save"></i></button>
+        <button id="clearBtn-9" class="btn clearBtn col"><i class="fas fa-calendar-times"></i></button>
+      </div>
+      <!-- 10AM -->
+      <div class="row time-block">
+        <div class="hour col-1 p-3">10 AM</div>
+        <textarea class="description" id="10" cols="100" rows="2"></textarea>
+        <button id="btn-10" class="btn saveBtn col"><i class="fas fa-save"></i></button>
+        <button id="clearBtn-10" class="btn clearBtn col"><i class="fas fa-calendar-times"></i></button>
+      </div>
+      <!-- 11AM -->
+      <div class="row time-block">
+        <div class="hour col-1 p-3">11 AM</div>
+        <textarea class="description" id="11" cols="100" rows="2"></textarea>
+        <button id="btn-11" class="btn saveBtn col"><i class="fas fa-save"></i></button>
+        <button id="clearBtn-11" class="btn clearBtn col"><i class="fas fa-calendar-times"></i></button>
+      </div>
+      <!-- 12PM -->
+      <div class="row time-block">
+        <div class="hour col-1 p-3">12 PM</div>
+        <textarea class="description" id="12" cols="100" rows="2"></textarea>
+        <button id="btn-12" class="btn saveBtn col"><i class="fas fa-save"></i></button>
+        <button id="clearBtn-12" class="btn clearBtn col"><i class="fas fa-calendar-times"></i></button>
+      </div>
+      <!-- 1PM -->
+      <div class="row time-block">
+        <div class="hour col-1 p-3">1 PM</div>
+        <textarea class="description" id="13" cols="100" rows="2"></textarea>
+        <button id="btn-13" class="btn saveBtn col"><i class="fas fa-save"></i></button>
+        <button id="clearBtn-13" class="btn clearBtn col"><i class="fas fa-calendar-times"></i></button>
+      </div>
+      <!-- 2PM -->
+      <div class="row time-block">
+        <div class="hour col-1 p-3">2 PM</div>
+        <textarea class="description" id="14" cols="100" rows="2"></textarea>
+        <button id="btn-14" class="btn saveBtn col"><i class="fas fa-save"></i></button>
+        <button id="clearBtn-14" class="btn clearBtn col"><i class="fas fa-calendar-times"></i></button>
+      </div>
+      <!-- 3PM -->
+      <div class="row time-block">
+        <div class="hour col-1 p-3">3 PM</div>
+        <textarea class="description" id="15" cols="100" rows="2"></textarea>
+        <button id="btn-15" class="btn saveBtn col"><i class="fas fa-save"></i></button>
+        <button id="clearBtn-15" class="btn clearBtn col"><i class="fas fa-calendar-times"></i></button>
+      </div>
+      <!-- 4PM -->
+      <div class="row time-block">
+        <div class="hour col-1 p-3">4 PM</div>
+        <textarea class="description" id="16" cols="100" rows="2"></textarea>
+        <button id="btn-16" class="btn saveBtn col"><i class="fas fa-save"></i></button>
+        <button id="clearBtn-16" class="btn clearBtn col"><i class="fas fa-calendar-times"></i></button>
+      </div>
+      <!-- 5PM -->
+      <div class="row time-block">
+        <div class="hour col-1 p-3">5 PM</div>
+        <textarea class="description" id="17" cols="100" rows="2"></textarea>
+        <button id="btn-17" class="btn saveBtn col"><i class="fas fa-save"></i></button>
+        <button id="clearBtn-17" class="btn clearBtn col"><i class="fas fa-calendar-times"></i></button>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
