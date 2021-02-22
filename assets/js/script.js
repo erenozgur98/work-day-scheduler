@@ -17,7 +17,7 @@ function start() {
         } else {
             $("#" + i).addClass("future");
         }
-        var hourValue = localStorage.getItem("hour"+i);
+        var hourValue = localStorage.getItem("hour" + i);
         if (hourValue) {
             $("#" + i).val(hourValue);
         }
@@ -31,7 +31,7 @@ $(".saveBtn").on("click", function () {
     var value = $("#" + input).val().trim();
 
     if (value.length) {
-      localStorage.setItem("hour"+input, value);  
+      localStorage.setItem("hour" + input, value);  
     }
 })
 
@@ -39,8 +39,8 @@ $(".saveBtn").on("click", function () {
 $(".clearBtn").on("click", function() {
     var clearInput = $(this).attr("id").split("-")[1];
     var clearValue = $("#" + clearInput).val().trim();
-    localStorage.removeItem("hour"+clearInput, clearValue);
-    console.log(clearInput, clearValue);
+    localStorage.removeItem("hour" + clearInput, clearValue);
+    location.reload();
 })
 
 
