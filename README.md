@@ -1,4 +1,4 @@
-# ****
+# **Work Day Scheduler**
 
 ## Table of Contents
 
@@ -15,7 +15,12 @@ Deployed Project: https://erenozgur98.github.io/work-day-scheduler/
 
 ---
 
+In this picture you can see it saves the information inside the text are to the local storage.
+
 ![workday1](./assets/images/workday.jpg)
+
+Here you can see after you press clear button it clears the information inside local storage for this hour only.
+
 ![workday2](./assets/images/workday.clear.jpg)
 
 
